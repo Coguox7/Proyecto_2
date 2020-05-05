@@ -1,0 +1,11 @@
+(V) Nodos: [
+// Representa una persona/usuario que esta usando el sistema de recomendaciones
+
+  “Persona”: {“id”: { Int }, “Nombre”: { String }, “Sexo”: { Char }, “Edad”: { Int }, “Username”: { String } 
+},
+  
+  
+// Representa a un tipo de comida, i.e. ‘comida china, hamburguesas, comida italiana’, etc.
+
+  “Tipos_comida”: { “id”: { Int }, “Descripcion”: { String }
+} ,
