@@ -1,0 +1,14 @@
+// Representa a un tipo de restaurante, i.e. ‘comida rapida’, ‘bar’, ‘restaurante’ etc.
+“Tipos_restaurantes”: {
+“id”: { Int }, “Descripcion”: { String }
+} ,
+ 
+// Categorias para el presupuesto estimado a gastar en una salida
+“Presupuestos”: {
+“id”:{ Int }, “Valor estimado”: { Decimal }
+},
+//	Categorias	para	el	ambiente/código	de	vestimenta	del	lugar,	i.e.
+‘formal’,’casual’,‘bar’, etc.
+“Ambiente”: {
+“id”:{ Int }, “Descripcion”:{ String }
+}]
