@@ -9,3 +9,28 @@
 
   “Tipos_comida”: { “id”: { Int }, “Descripcion”: { String }
 } ,
+// Representa a un tipo de restaurante, i.e. ‘comida rapida’, ‘bar’, ‘restaurante’ etc.
+“Tipos_restaurantes”: {
+“id”: { Int }, “Descripcion”: { String }
+} ,
+// Categorias para el presupuesto estimado a gastar en una salida
+“Presupuestos”: {
+“id”:{ Int }, “Valor estimado”: { Decimal }
+},
+// Categorias para el ambiente/código de vestimenta del lugar, i.e. ‘formal’,’casual’,‘bar’, etc.
+“Ambiente”: {
+“id”:{ Int }, “Descripcion”:{ String }
+}]
+Tipos de aristas o relaciones :[
+“Conocidos” // Establece una relacion de amistad entre dos personas
+“Comida” // Indica el tipo de comida que le gusta
+“Restaurante” // Indica que tipo de restaurante prefiere
+“Presupuesto” // Indica cual es el presupesto propuesto por el usuario
+“Ambiente” // Indica el ambiente esperado del lugar a comer
+“Parecidos” // Establece una relación de ‘cercania’ entre dos categorías de un mismo tipo
+]
+(E) Aristas: [
+“Relacion”:{
+“id”: { Int }, “id_origen”: { Int }, “id_destino”: { Int }, “tipo”: { String }
+}
+]
